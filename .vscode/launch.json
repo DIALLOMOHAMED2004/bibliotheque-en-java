@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "App",
+        "request": "launch",
+        "mainClass": "com.monapp.App",
+        "projectName": "bibliotheque_8ede07b1"
+    },
+    {
+        "name": "Debug App",
+        "type": "java",
+        "request": "launch",
+        "mainClass": "com.monapp.App",
+        "projectName": "bibliotheque",
+        "classpath": [
+            "out",
+            "lib/mysql-connector.jar"
+        ]
+    }
+]
+}

@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "javac",
+      "args": [
+        "-cp", "lib/mysql-connector.jar",
+        "-d", "out",
+        "src/com/monapp/*.java"
+      ],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$javac"]
+    }
+  ]
+}

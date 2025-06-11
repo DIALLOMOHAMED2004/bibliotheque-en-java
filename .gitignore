@@ -1,0 +1,33 @@
+# Fichiers de compilation
+*.class
+*.jar
+
+# Fichiers de cache de l'IDE
+.classpath
+.project
+.settings/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Autres fichiers spécifiques au projet
+/target/ (si vous utilisez un build system comme Ant ou Maven)
+
+# Exemples de fichiers à ignorer (remplacez par vos propres exemples)
+*.log
+*.md
+
+# Fichiers sensibles (mot de passe, clés API, etc.)
+*.env
+*.key
+*.secret
+
+# Fichiers de dépendances (si vous utilisez un gestionnaire de dépendances personnalisé)
+/lib/
+/vendor/
+
+# Fichiers de test (si vous ne voulez pas valider les tests)
+/tests/
