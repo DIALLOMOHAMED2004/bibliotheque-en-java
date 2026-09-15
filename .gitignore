@@ -19,6 +19,7 @@
 # Exemples de fichiers à ignorer (remplacez par vos propres exemples)
 *.log
 *.md
+!README.md
 
 # Fichiers sensibles (mot de passe, clés API, etc.)
 *.env
